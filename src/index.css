@@ -1,0 +1,369 @@
+:root {
+  --fheading: 'Neue Leiden', sans-serif;
+  --fbody: 'Remark', sans-serif;
+  --white: #D8D8D8;
+  --Black: #262626;
+  --green: #00A657;
+  --blue: #00A2DC;
+  --gradient: linear-gradient(to right, var(var(--green)), var(var(--blue)));
+}
+
+
+@font-face {
+  font-family: 'Neue Leiden';
+  src: url('./Font/NeueLeiden-Medium.eot');
+  src: url('./Font/NeueLeiden-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./Font/NeueLeiden-Medium.woff2') format('woff2'),
+    url('./Font/NeueLeiden-Medium.woff') format('woff'),
+    url('./Font/NeueLeiden-Medium.ttf') format('truetype'),
+    url('./Font/NeueLeiden-Medium.svg#NeueLeiden-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Leiden';
+  src: url('./Font/NeueLeiden-Regular.eot');
+  src: url('./Font/NeueLeiden-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./Font/NeueLeiden-Regular.woff2') format('woff2'),
+    url('./Font/NeueLeiden-Regular.woff') format('woff'),
+    url('./Font/NeueLeiden-Regular.ttf') format('truetype'),
+    url('./Font/NeueLeiden-Regular.svg#NeueLeiden-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Leiden';
+  src: url('./Font/NeueLeiden-SemiBold.eot');
+  src: url('./Font/NeueLeiden-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('./Font/NeueLeiden-SemiBold.woff2') format('woff2'),
+    url('./Font/NeueLeiden-SemiBold.woff') format('woff'),
+    url('./Font/NeueLeiden-SemiBold.ttf') format('truetype'),
+    url('./Font/NeueLeiden-SemiBold.svg#NeueLeiden-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Leiden';
+  src: url('./Font/NeueLeiden-Bold.eot');
+  src: url('./Font/NeueLeiden-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./Font/NeueLeiden-Bold.woff2') format('woff2'),
+    url('./Font/NeueLeiden-Bold.woff') format('woff'),
+    url('./Font/NeueLeiden-Bold.ttf') format('truetype'),
+    url('./Font/NeueLeiden-Bold.svg#NeueLeiden-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Leiden';
+  src: url('./Font/NeueLeiden-Light.eot');
+  src: url('./Font/NeueLeiden-Light.eot?#iefix') format('embedded-opentype'),
+    url('./Font/NeueLeiden-Light.woff2') format('woff2'),
+    url('./Font/NeueLeiden-Light.woff') format('woff'),
+    url('./Font/NeueLeiden-Light.ttf') format('truetype'),
+    url('./Font/NeueLeiden-Light.svg#NeueLeiden-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Leiden';
+  src: url('./Font/NeueLeiden-ExtraLight.eot');
+  src: url('./Font/NeueLeiden-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('./Font/NeueLeiden-ExtraLight.woff2') format('woff2'),
+    url('./Font/NeueLeiden-ExtraLight.woff') format('woff'),
+    url('./Font/NeueLeiden-ExtraLight.ttf') format('truetype'),
+    url('./Font/NeueLeiden-ExtraLight.svg#NeueLeiden-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-ExtraBold_Italic.eot');
+  src: url('./Font/Remark-ExtraBold_Italic.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-ExtraBold_Italic.woff2') format('woff2'),
+    url('./Font/Remark-ExtraBold_Italic.woff') format('woff'),
+    url('./Font/Remark-ExtraBold_Italic.ttf') format('truetype'),
+    url('./Font/Remark-ExtraBold_Italic.svg#Remark-ExtraBold_Italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Bold.eot');
+  src: url('./Font/Remark-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Bold.woff2') format('woff2'),
+    url('./Font/Remark-Bold.woff') format('woff'),
+    url('./Font/Remark-Bold.ttf') format('truetype'),
+    url('./Font/Remark-Bold.svg#Remark-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Bold_Italic.eot');
+  src: url('./Font/Remark-Bold_Italic.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Bold_Italic.woff2') format('woff2'),
+    url('./Font/Remark-Bold_Italic.woff') format('woff'),
+    url('./Font/Remark-Bold_Italic.ttf') format('truetype'),
+    url('./Font/Remark-Bold_Italic.svg#Remark-Bold_Italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Heavy.eot');
+  src: url('./Font/Remark-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Heavy.woff2') format('woff2'),
+    url('./Font/Remark-Heavy.woff') format('woff'),
+    url('./Font/Remark-Heavy.ttf') format('truetype'),
+    url('./Font/Remark-Heavy.svg#Remark-Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-ExtraBold.eot');
+  src: url('./Font/Remark-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-ExtraBold.woff2') format('woff2'),
+    url('./Font/Remark-ExtraBold.woff') format('woff'),
+    url('./Font/Remark-ExtraBold.ttf') format('truetype'),
+    url('./Font/Remark-ExtraBold.svg#Remark-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Leiden';
+  src: url('./Font/NeueLeiden-Thin.eot');
+  src: url('./Font/NeueLeiden-Thin.eot?#iefix') format('embedded-opentype'),
+    url('./Font/NeueLeiden-Thin.woff2') format('woff2'),
+    url('./Font/NeueLeiden-Thin.woff') format('woff'),
+    url('./Font/NeueLeiden-Thin.ttf') format('truetype'),
+    url('./Font/NeueLeiden-Thin.svg#NeueLeiden-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark Heavy';
+  src: url('./Font/Remark-Heavy_Italic.eot');
+  src: url('./Font/Remark-Heavy_Italic.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Heavy_Italic.woff2') format('woff2'),
+    url('./Font/Remark-Heavy_Italic.woff') format('woff'),
+    url('./Font/Remark-Heavy_Italic.ttf') format('truetype'),
+    url('./Font/Remark-Heavy_Italic.svg#Remark-Heavy_Italic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-ExtraLight.eot');
+  src: url('./Font/Remark-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-ExtraLight.woff2') format('woff2'),
+    url('./Font/Remark-ExtraLight.woff') format('woff'),
+    url('./Font/Remark-ExtraLight.ttf') format('truetype'),
+    url('./Font/Remark-ExtraLight.svg#Remark-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-ExtraLight_Italic.eot');
+  src: url('./Font/Remark-ExtraLight_Italic.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-ExtraLight_Italic.woff2') format('woff2'),
+    url('./Font/Remark-ExtraLight_Italic.woff') format('woff'),
+    url('./Font/Remark-ExtraLight_Italic.ttf') format('truetype'),
+    url('./Font/Remark-ExtraLight_Italic.svg#Remark-ExtraLight_Italic') format('svg');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Regular.eot');
+  src: url('./Font/Remark-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Regular.woff2') format('woff2'),
+    url('./Font/Remark-Regular.woff') format('woff'),
+    url('./Font/Remark-Regular.ttf') format('truetype'),
+    url('./Font/Remark-Regular.svg#Remark-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Light_Italic.eot');
+  src: url('./Font/Remark-Light_Italic.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Light_Italic.woff2') format('woff2'),
+    url('./Font/Remark-Light_Italic.woff') format('woff'),
+    url('./Font/Remark-Light_Italic.ttf') format('truetype'),
+    url('./Font/Remark-Light_Italic.svg#Remark-Light_Italic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-SemiBold_Italic.eot');
+  src: url('./Font/Remark-SemiBold_Italic.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-SemiBold_Italic.woff2') format('woff2'),
+    url('./Font/Remark-SemiBold_Italic.woff') format('woff'),
+    url('./Font/Remark-SemiBold_Italic.ttf') format('truetype'),
+    url('./Font/Remark-SemiBold_Italic.svg#Remark-SemiBold_Italic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-SemiBold.eot');
+  src: url('./Font/Remark-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-SemiBold.woff2') format('woff2'),
+    url('./Font/Remark-SemiBold.woff') format('woff'),
+    url('./Font/Remark-SemiBold.ttf') format('truetype'),
+    url('./Font/Remark-SemiBold.svg#Remark-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Thin.eot');
+  src: url('./Font/Remark-Thin.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Thin.woff2') format('woff2'),
+    url('./Font/Remark-Thin.woff') format('woff'),
+    url('./Font/Remark-Thin.ttf') format('truetype'),
+    url('./Font/Remark-Thin.svg#Remark-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Medium.eot');
+  src: url('./Font/Remark-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Medium.woff2') format('woff2'),
+    url('./Font/Remark-Medium.woff') format('woff'),
+    url('./Font/Remark-Medium.ttf') format('truetype'),
+    url('./Font/Remark-Medium.svg#Remark-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Medium_Italic.eot');
+  src: url('./Font/Remark-Medium_Italic.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Medium_Italic.woff2') format('woff2'),
+    url('./Font/Remark-Medium_Italic.woff') format('woff'),
+    url('./Font/Remark-Medium_Italic.ttf') format('truetype'),
+    url('./Font/Remark-Medium_Italic.svg#Remark-Medium_Italic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Light.eot');
+  src: url('./Font/Remark-Light.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Light.woff2') format('woff2'),
+    url('./Font/Remark-Light.woff') format('woff'),
+    url('./Font/Remark-Light.ttf') format('truetype'),
+    url('./Font/Remark-Light.svg#Remark-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Regular_Italic.eot');
+  src: url('./Font/Remark-Regular_Italic.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Regular_Italic.woff2') format('woff2'),
+    url('./Font/Remark-Regular_Italic.woff') format('woff'),
+    url('./Font/Remark-Regular_Italic.ttf') format('truetype'),
+    url('./Font/Remark-Regular_Italic.svg#Remark-Regular_Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Remark';
+  src: url('./Font/Remark-Thin_Italic.eot');
+  src: url('./Font/Remark-Thin_Italic.eot?#iefix') format('embedded-opentype'),
+    url('./Font/Remark-Thin_Italic.woff2') format('woff2'),
+    url('./Font/Remark-Thin_Italic.woff') format('woff'),
+    url('./Font/Remark-Thin_Italic.ttf') format('truetype'),
+    url('./Font/Remark-Thin_Italic.svg#Remark-Thin_Italic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  /* background-color:#262626; */
+  font-size: 14px;
+  background-image: url("./images/imgpsh_fullsize_anim.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+form,
+textarea,
+input,
+body,
+p {
+  font-family: var(--fbody);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--fheading);
+}
+
+.font-heading {
+  font-family: var(--fheading) !important;
+}
+
+.font-body {
+  font-family: var(--fbody) !important;
+}

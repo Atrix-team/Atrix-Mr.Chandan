@@ -1,0 +1,201 @@
+.haeading-text {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.haeading-text-1 {
+    position: relative;
+}
+
+.haeading-text-3 {
+    position: relative;
+}
+
+.haeading-text h1 {
+    font-size: 8rem;
+}
+
+.haeading-text-2 {
+    line-height: 3rem;
+    font-size: 8rem;
+}
+
+.haeading-text-2 h1 {
+    display: flex;
+    align-items: center;
+}
+
+.haeading-text p {
+    color: #d8d8d8;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    max-width: 1200px;
+}
+
+.type-writer-border {
+    border-image-slice: 1;
+    position: relative;
+    height: 120px;
+    border-radius: 60px;
+    width: 40rem;
+    height: 5rem;
+    margin-left: 2%;
+    padding: 0px 40px 0px 10px;
+}
+
+.react-typewriter-text {
+    justify-content: center;
+}
+
+.type-writer-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 3px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #00A657, #00A2Dc);
+    -webkit-mask: linear-gradient(white, white) content-box,
+        linear-gradient(white, white);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+}
+
+.navbar-left img {
+    height: 7rem;
+    width: 7rem;
+    font-size: 4rem;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+/* The bouncing text styling */
+
+.bouncing-text1 {
+    position: absolute;
+    width: 10rem;
+    height: 2rem;
+    background-color: #D8D8D8;
+    padding: 8px;
+    border-radius: 60px;
+    animation: bounce2 1s ease-in-out forwards;
+    left: 33rem;
+}
+
+p.bouncing-text1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2f2f30;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+@keyframes bounce2 {
+    0% {
+        top: 3rem;
+        rotate: 6deg;
+    }
+
+    50% {
+        top: 9rem;
+        /* Bounce point */
+        rotate: -36deg;
+    }
+
+    100% {
+        top: 4.6rem;
+        /* Final position (stuck) */
+        rotate: -5.6deg;
+    }
+}
+
+/* The bouncing text styling */
+.bouncing-text2 {
+    position: absolute;
+    width: 14rem;
+    height: 2rem;
+    background-color: var(--green);
+    padding: 8px;
+    border-radius: 60px;
+    animation: bounce1 1s ease-in-out forwards;
+}
+
+p.bouncing-text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2f2f30;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* Keyframes to handle the bounce and final position */
+@keyframes bounce1 {
+    0% {
+        top: 0rem;
+        rotate: -6deg;
+    }
+
+    50% {
+        top: 20rem;
+        /* Bounce point */
+        rotate: 36deg;
+    }
+
+    100% {
+        top: 21.4rem;
+        /* Final position (stuck) */
+        rotate: 6deg;
+    }
+}
+
+
+/* The bouncing text styling */
+.bouncing-text3 {
+    position: absolute;
+    width: 12rem;
+    height: 2rem;
+    background-color: #00A2Dc;
+    padding: 8px;
+    border-radius: 60px;
+    animation: bounce3 1s ease-in-out forwards;
+    left: -9rem;
+}
+
+p.bouncing-text3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2f2f30;
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+/* Keyframes to handle the bounce and final position */
+@keyframes bounce3 {
+    0% {
+        top: -4rem;
+        rotate: 6deg;
+    }
+
+    50% {
+        top: 6rem;
+        /* Bounce point */
+        rotate: 36deg;
+    }
+
+    100% {
+        top: 5.5rem;
+        /* Final position (stuck) */
+        rotate: 8deg;
+    }
+}
