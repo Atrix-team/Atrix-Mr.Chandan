@@ -2,13 +2,16 @@
   --fheading: 'Neue Leiden', sans-serif;
   --fbody: 'Remark', sans-serif;
   --white: #D8D8D8;
-  --Black: #262626;
+  --black: #262626;
   --green: #00A657;
   --blue: #00A2DC;
   --gradient: linear-gradient(to right, var(var(--green)), var(var(--blue)));
 }
-
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: 'Neue Leiden';
   src: url('./Font/NeueLeiden-Medium.eot');
@@ -337,10 +340,8 @@
 body {
   /* background-color:#262626; */
   font-size: 14px;
-  background-image: url("./images/imgpsh_fullsize_anim.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
 
 }
 

@@ -1,0 +1,19 @@
+.Animation-bg{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+.Home-container{
+    background-color: rgba(18, 18, 18, 0.876);
+}
+ 
+.About-sec{
+    background-color: #101010f1;
+}
+
+/* Centering the card-container */
+

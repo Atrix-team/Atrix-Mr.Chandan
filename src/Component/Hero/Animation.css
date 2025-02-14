@@ -1,25 +1,25 @@
-body {
-  /* margin: 0;
-  height: 100vh; */
-  /* display: flex;
-  justify-content: center; */
+/* body {
+  display: flex; 
+  justify-content: center;
   align-items: center;
-  /* background: radial-gradient(circle, #0f2027, #203a43, #2c5364); */
-  /* overflow: hidden; */
-}
+} */
+.herowrapper{
+  position: relative;
+  width: 100%;
+  padding:  100px 0px 100px 0px;
 
+}
 .circle-warpper {
   position: relative;
   overflow: hidden;
-  width: 480px;
   height: 480px;
   display: flex;
   justify-content: center;
   align-items: center;
-  scale: 2;
-  margin-left: 35%;
-  margin-top: -25%;
+  scale: 1.8;
   z-index: -1;
+  top: 100px;
+ 
 }
 
 .animatted-circle {
@@ -39,7 +39,6 @@ body {
   rotate: 45deg;
   border: 1px solid rgba(0, 149, 255, 0.184);
   box-shadow: none;
-
 }
 
 center center .animatted-circle:nth-child(2) {

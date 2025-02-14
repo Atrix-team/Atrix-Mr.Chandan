@@ -1,0 +1,129 @@
+
+.our-services {
+  background: #000;
+  color: #fff;
+  padding: 150px 0 250px;
+}
+
+.services-container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+.our-services .service-heading h2 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.our-services .serv-sub-heading {
+  font-size: 20px;
+  color: #1a8ef7;
+}
+
+.our-services .serv-heading {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.our-services .serv-desc {
+  font-size: 16px;
+  margin-top: 50px;
+  line-height: 2.2rem;
+  color: #ffffffb3;
+}
+
+.our-services .service-cards {
+  padding-right: 150px;
+}
+
+.our-services .service-card {
+  /* display: flex; */
+  margin-top: 300px;
+  opacity: 0.3;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+.services-wrpr {
+  display: flex;
+  margin-top: 100px;
+}
+
+.services-wrpr > div {
+  width: 50%;
+}
+
+.service-img-wrapr {
+  position: relative;
+}
+
+.serve-img-inner-wrapper {
+  position: sticky;
+  top: 150px;
+  height: 600px;
+  padding-left: 70px;
+}
+
+.service-img-wrapr img {
+  max-width: 80%;
+  height: auto;
+  position: absolute;
+  object-fit: cover;
+  left: 50px;
+}
+
+.serviceImg {
+  opacity: 0;
+  transform: scale(0.7);
+}
+
+.active-img {
+  opacity: 1;
+  transition: opacity 0.1s ease-in, transform 0.2s ease-in-out;
+  transform: scale(1);
+}
+
+.serv-heading span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-image: linear-gradient(to right, #1a8ef7, #14624b);
+  border-radius: 50%;
+  transform: translateY(8px);
+  margin-right: 4px;
+}
+
+.card-buttons {
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-btn {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(45deg, #1a8ef7 20%, #14624b 80%) border-box;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  padding: 7px 24px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.card-btn:hover {
+  background: linear-gradient(45deg, #1a8ef7 20%, #14624b 80%);
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+@media only screen and (max-width: 1200px) {
+  .our-services .service-cards {
+    padding-right: 100px;
+  }
+}
+

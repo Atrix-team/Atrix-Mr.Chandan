@@ -1,0 +1,85 @@
+/* CountSection.css */
+.count-section {
+    background-image: url('https://atrixitsolutions.com/wp-content/uploads/2024/08/demo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 623px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.count-section-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.count-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    /* Rounded corners for the cards */
+    text-align: center;
+    background-color: #fff;
+    /* White background by default */
+}
+
+.count-item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.count-item-number {
+    font-size: 3rem;
+    font-weight: bold;
+    font-weight: 800;
+}
+
+.count-item-text {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    font-weight: 800;
+}
+
+/* Background color classes */
+.bg-darkblack {
+    background-color: var(--black);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-gray {
+    background-color: #e70a0a;
+}
+
+.bg-lightgray {
+    background-color: #d3d3d3;
+}
+.text-white {
+    color: var(--white);
+}
+
+.text-darkblack {
+    color: #181818;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-30 {
+    width: 30%;
+}

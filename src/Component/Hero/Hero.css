@@ -1,3 +1,11 @@
+.Hero-sec-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0px 150px 0px;
+    flex-direction: column;
+}
+
 .haeading-text {
     margin-top: 5rem;
     display: flex;

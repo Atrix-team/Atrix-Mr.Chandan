@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import "./Animation.css"
 
-const Animation = () => {
+const Animationsec = () => {
   const canvasRef = useRef(null); // Reference to the canvas
   const outerParticles = [];
   const innerParticles = [];
@@ -141,13 +141,15 @@ const Animation = () => {
   }, []);
 
   return (
-    <div className="circle-warpper">
+    <div className="herowrapper">
+      <div className="circle-warpper">
       <canvas ref={canvasRef} id="particleCanvas"></canvas>
       {[...Array(20)].map((_, index) => (
         <div key={index} className="animatted-circle"></div>
       ))}
     </div>
+    </div>
   );
 };
 
-export default Animation;
+export default Animationsec;

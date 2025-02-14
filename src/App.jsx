@@ -1,15 +1,18 @@
 import React from 'react'
 import Navbar from './Component/Navbar/Navbar';
-import { Hero } from './Component/Hero/Hero';
-import Animation from './Component/Hero/Animation';
-
+import { Route, Routes } from 'react-router-dom';
+import { HomePage } from './Component/Home/HomePage';
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Animation />
+    
+      <Routes>
+      <Route path='/' element={<HomePage />}></Route>    
+      </Routes>
+     
+     
     </>
   )
 }
