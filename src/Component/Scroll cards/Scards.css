@@ -1,0 +1,128 @@
+.Scard-container {
+    color: white;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.Scard {
+    width: 500px;
+    height: auto;
+    padding: 2%;
+    background-color: #101010f1;
+    position: sticky;
+    top: 100px;
+    margin-bottom: 50px;
+    right: 10;
+}
+
+.scard-right {
+    padding-left: 100px;
+}
+
+.scard-right,
+.scard-left {
+    width: 50%;
+}
+
+.Scard-img img {
+    height: 70px;
+    width: 70px;
+    filter: contrast(0.0) brightness(4.5);
+}
+
+.Scard-text h4 {
+    font-size: 38px;
+}
+
+.Scard-text p {
+    font-size: 18px;
+    line-height: 1.6rem;
+    margin-top: 14px;
+}
+
+.Scard-text ul {
+    list-style: none;
+    font-size: 15px;
+    margin-top: 18px;
+    line-height: 1.8rem;
+}
+
+.Scard-text li::before {
+    content: '+';
+    margin-right: 10px;
+}
+
+.scard-left {
+    border-right: 0.1px solid rgba(255, 255, 255, 0.218);
+    height: 90rem;
+
+}
+
+.Proccess-sec {
+    display: flex;
+    gap: 50rem;
+}
+
+.Proccess-sec-hadding {
+    color: white;
+    font-size: 32px;
+    line-height: 4rem;
+    margin-left: 18rem;
+    padding: 100px 0px 100px 0px;
+}
+
+.Proccess-sec-hadding2 {
+    color: white;
+    font-size: 22px;
+    line-height: 2rem;
+    padding: 100px 0px 100px 0px;
+}
+
+.scard-left{
+
+}
+.process-circle {
+    width: 50%;
+}
+
+.circle-wrapper {
+    height: 340px;
+    width: 340px;
+    background-color: #2f2f2f;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 100px;
+}
+
+.circle-content {
+    height: 310px;
+    width: 310px;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.step-number {
+    font-size: 3rem;
+    font-weight: bold;
+}
+#circle-sec{
+    position: sticky;
+    height: 1000px;
+}

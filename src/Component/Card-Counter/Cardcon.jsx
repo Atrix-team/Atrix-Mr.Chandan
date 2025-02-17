@@ -9,7 +9,7 @@ const Cardcon = () => {
   
     },
     {
-      number: 328,
+      number: 328,  
       text: 'awards for digital innovation',
 
     },

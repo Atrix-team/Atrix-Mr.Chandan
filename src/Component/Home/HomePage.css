@@ -12,8 +12,13 @@
 }
  
 .About-sec{
-    background-color: #101010f1;
+    background-color: #000000;
 }
-
-/* Centering the card-container */
+.Hero-sec-bg{
+    background-image: url('../../images/imgpsh_fullsize_anim.jpg') !important;
+    background-size: cover;
+}
+.bouns-text-h1{
+    z-index: 1;
+}
 
