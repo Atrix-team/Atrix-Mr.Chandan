@@ -8,9 +8,11 @@ import Marqueesec from '../Marquee/Marqueesec';
 // import Cardcon from '../Card-Counter/Cardcon';
 // import Ui from '../Ui/ui';
 import Scards from '../Scroll cards/Scards';
+import WorkCardSlider from '../WorkSection/WorkCardSlider';
 
 
 export const HomePage = () => {
+
   return (
     <>
       <div className='Home-container' >
@@ -29,6 +31,7 @@ export const HomePage = () => {
         {/* <Cardcon/> */}
         {/* <Ui/> */}
         <Scards/>
+        <WorkCardSlider />
       </div>
 
 {/*  */}

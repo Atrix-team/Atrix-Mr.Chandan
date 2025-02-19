@@ -31,6 +31,7 @@
     line-height: 3rem;
     font-size: 8rem;
     z-index: 1;
+    display: flex;
 }
 
 .haeading-text-2 h1 {
@@ -120,7 +121,7 @@ p.bouncing-text1 {
     }
 
     100% {
-        top: 6.8rem;
+        top: -4rem;
         /* Final position (stuck) */
         rotate: -5.6deg;
     }
@@ -130,9 +131,11 @@ p.bouncing-text1 {
 .bouncing-text2 {
     position: absolute;
     background-color: var(--green);
-    padding: 0px 20px 0px 20px ;
+    padding: 5px 20px 5px 20px ;
     border-radius: 60px;
     animation: bounce1 1s ease-in-out forwards;
+    width: 250px;
+    z-index: 1;
 }
 
 p.bouncing-text2 {
@@ -148,18 +151,21 @@ p.bouncing-text2 {
 @keyframes bounce1 {
     0% {
         top: 0rem;
+        right: 20rem;
         rotate: -6deg;
     }
 
     50% {
         top: 20rem;
+        right: 20rem;
         /* Bounce point */
         rotate: 36deg;
     }
 
     100% {
-        top: 23rem;
-        /* Final position (stuck) */
+        top: -2.5rem;
+       right: 20rem;
+        /* Final position (stuck); */
         rotate: 6deg;
     }
 }
@@ -200,8 +206,12 @@ p.bouncing-text3 {
     }
 
     100% {
-        top: 6.5rem;
+        top: -5rem;
         /* Final position (stuck) */
         rotate: 8deg;
     }
+}
+
+.moveWithMouse {
+    transition: transform 0.2s ease-out;  
 }

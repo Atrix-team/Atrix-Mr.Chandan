@@ -1,0 +1,107 @@
+
+.slider-container{
+    max-width: 1600px;
+    align-items: center;justify-content: center; display: flex; flex-direction: column;
+}
+
+.portfolio-card-container{
+    padding: 100px 0px 500px;
+}
+.portfolio-card{
+    color: white;
+    border: 1px solid #282828;
+    border-radius: 10px;
+    height: 540px;
+    width: 500px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin-left: 200px;
+}
+
+.portfolio-card .image-and-tag{
+    background-color: #252525;
+    padding: 30px 40px 0;
+    border-radius: 10px 10px 0 0;
+    transition: .35s;
+}
+.portfolio-card .image-and-tag .tag li{
+background-color: black;
+border-radius: 50px;
+padding: 6px 25px 6px 25px;
+}
+.portfolio-card .image-and-tag .tag li:hover:nth-child(1)  {
+    background-color: #0dbf82;
+    transition: .35s;
+}
+.portfolio-card .image-and-tag .tag li:hover:nth-child(2)  {
+    background-color: #0dbf82;
+    transition: .35s;
+}
+.portfolio-card .image-and-tag .portfolio-img img{
+    border-radius: 10px;
+    height: 370px;
+    width: 420px;
+}
+
+.portfolio-img{
+    position: relative;
+}
+.portfolio-card .image-and-tag .portfolio-img .details-btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+    position: absolute;
+    bottom: -25px;
+    right: 30px;
+    transition: .35s;
+    cursor: pointer;
+}
+.portfolio-card .image-and-tag .portfolio-img .details-btn svg {
+    fill: #fff;
+    transition: .35s;
+    
+}
+.portfolio-card .image-and-tag .portfolio-img .details-btn:hover svg{
+    transform: rotate(45deg);   
+}
+.portfolio-card .image-and-tag .portfolio-img .details-btn:hover{
+    background-color: #0dbf82;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.portfolio-card .image-and-tag .tag {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    background-color: var(--black);
+}
+.portfolio-card .portfolio-content h4 a{
+    padding: 28px 40px;
+    color: var(--white);
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+.portfolio-card .portfolio-content h4{
+    padding-top: 20px;
+}
+.portfolio-content h4 a:hover {
+    cursor: pointer;
+    color: #0dbf82;
+    transition: .35s;
+}
+
+
+
